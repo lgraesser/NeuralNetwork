@@ -1,5 +1,5 @@
 # NeuralNetwork
-Vectorized implementation of a general feedforward neural network in Python
+NeuralNet2.ipynb is a vectorized implementation of a general feedforward neural network in Python
 - Four activation functions available: sigmoid, softmax, ReLU, and Leaky ReLU
 - Three parameter initialization functions
 - Three cost functions available: quadratic, cross entropy, log likelihood

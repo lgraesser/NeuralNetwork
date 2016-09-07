@@ -31,8 +31,8 @@ Neural Networks and Deep Learning, available at
 http://neuralnetworksanddeeplearning.com/ so shares a similar structure to
 his program
 
-The main differences are that this is a vectorized implementation, 
-it offers four different types of activation functions: Sigmoid, Relu, Leaky Relu, and Softmax,
+The main differences in functionality are that this is a vectorized implementation, 
+this offers four different types of activation functions: Sigmoid, Relu, Leaky Relu, and Softmax,
 it is possible to specify a different activation function for the hidden layers and output layer,
 it offers different weight initializers, 
 and operator overloading was used to simplify the feedforward step
@@ -43,11 +43,11 @@ np.set_printoptions(precision=8, suppress=True)
 
 '''The Matrix class simplifies the appearance of matrix multiplication and addition,
    and was an excercise in operator overloading.
-   If w, x and b are matrices of approprioate dimensions and W, X and B are
+   If w, x and b are matrices of appropriate dimensions and W, X and B are
    the corresponding instances of the Matrix class then
    np.dot(w, x) + b is simplified to W * X + B
 
-   Whilst it simplifies the appearance of the feeforward step, in practice this 
+   Whilst it simplifies the appearance of the feedforward step, in practice this 
    did not turn out to be as useful as I had hoped because of the need to transpose
    matrices and carry out element wise operations.
 

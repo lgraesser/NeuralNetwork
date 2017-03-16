@@ -1,4 +1,7 @@
 # A Neural Network program in Python
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5637cdbb942489b968a6a4f33af7364)](https://www.codacy.com/app/lgraesser/NeuralNetwork?utm_source=github.com&utm_medium=referral&utm_content=lgraesser/NeuralNetwork&utm_campaign=badger)
+
 This is a program for a general feedforward neural network and is intended for educational purposes. It is simple and short, making it easy for a reader to quickly get into the details of how a neural network can be implemented. NeuralNet2.ipynb contains the code for the neural network, the rest of the .ipynb files are example applications, and the .pkl files are the associated data. This code accompanies a set of tutorials on neural networks, including a walkthrough of the NeuralNet2.ipynb, available at <https://learningmachinelearning.org/>
 
 ## NeuralNetwork
